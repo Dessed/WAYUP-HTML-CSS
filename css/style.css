@@ -13,7 +13,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.03em;
     color: #000;
     width: 1600px;
@@ -23,24 +23,46 @@ body {
 }
 
 h1 {
-    color: red;
+    font-weight: 900;
+    color: #ff0000;
 }
+
+h2 {
+    background-color: #228b22;
+    color: #fff;
+    padding: 5px;
+}
+
+
+/*section hero*/
 
 .text-hero {
     width: 100px;
-    height: 100px;
-    background-color: blue;
+    height: 75px;
+    background-color: #0000ff;
     color: #fff;
+    margin-bottom: 100px;
 }
 
-.hero {
-
+.text-color {
+    color: #ff0000;
 }
 
-.skills {
-
+.access {
+    margin-left: 90px;
 }
 
-.future {
 
+/*section future*/
+
+
+/*section skills*/
+
+.skills-header {
+    padding: 50px 40px;
+}
+
+.list {
+    font-size: 30px;
+    border: 2px solid #000;
 }
